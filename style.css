@@ -1,0 +1,65 @@
+#keys {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display:flex;
+}
+
+button {
+    margin:2px;
+    width:60px;
+    height:60px;
+    border-radius:10px;
+}
+
+#display {
+    height: 25px;
+    width: 225px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+#results {
+    height: 50px;
+    width: 225px;
+    flex-wrap: wrap;
+}
+
+#screen {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+    border-radius:5px;
+}
+
+#calculator {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing:content-box;
+    background-color: black;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero {
+    background-color: blueviolet;
+}
+
+#zero {
+    flex:2;
+}
+
+
+
