@@ -94,6 +94,17 @@ btnBack.addEventListener('click', () => {
     operationDisplay.textContent = content;
 });
 
+document.addEventListener('keydown', (event) => {
+    if(event.key !== "Backspace") return;
+    if (!/[0123456789\.]/.test(content[content.length - 1])) return;
+    content = content.slice(0, content.length-1);
+    operationDisplay.textContent = content;
+});
+
+
+
+
+
 //OPERATIONS BLOCK
 
 function add(a, b) {
