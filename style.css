@@ -4,14 +4,15 @@
 }
 
 .row {
-    display:flex;
+    display: flex;
 }
 
 button {
-    margin:2px;
-    width:60px;
-    height:60px;
-    border-radius:10px;
+    margin: 2px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 #display {
@@ -34,8 +35,8 @@ button {
     flex-direction: column;
     background-color: white;
     padding: 10px;
-    margin:10px;
-    border-radius:5px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 #calculator {
@@ -45,21 +46,27 @@ button {
     padding: 10px;
 }
 
-body{
-    display:flex;
+body {
+    display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing:content-box;
+    box-sizing: content-box;
     background-color: black;
 }
 
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero {
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#zero {
     background-color: blueviolet;
 }
 
 #zero {
-    flex:2;
+    flex: 2;
 }
-
-
-
