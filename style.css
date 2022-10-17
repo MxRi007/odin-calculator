@@ -11,8 +11,8 @@ button {
     margin: 2px;
     width: 60px;
     height: 60px;
-    border-radius: 10px;
     font-weight: bold;
+    border: none;
 }
 
 #display {
@@ -36,7 +36,6 @@ button {
     background-color: white;
     padding: 10px;
     margin: 10px;
-    border-radius: 5px;
 }
 
 #calculator {
@@ -46,12 +45,18 @@ button {
     padding: 10px;
 }
 
+html, body {
+    height: 100%;
+}
+
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: content-box;
-    background-color: black;
+    background-color: whitesmoke;
+    margin: 0;
 }
 
 #one,
@@ -64,7 +69,21 @@ body {
 #eight,
 #nine,
 #zero {
-    background-color: blueviolet;
+    background-color: gold;
+}
+
+#clear,
+#equals,
+#dot,
+#back {
+    background-color: silver;
+}
+
+#subtract,
+#divide,
+#multiply,
+#add {
+    background-color: #cd7f32;
 }
 
 #zero {
