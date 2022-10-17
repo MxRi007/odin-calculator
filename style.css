@@ -52,7 +52,12 @@ button {
 }
 
 h1, h2, h3 {
-    color:gold
+    color:gold;
+    margin:0;
+}
+
+h1 {
+    margin-top:10px;
 }
 
 html, body {
@@ -73,7 +78,7 @@ body {
 }
 
 * {
-    border-radius: 100px;
+    border-radius: 50px;
     color:  rgb(84, 133, 0);
 
 }
