@@ -48,14 +48,15 @@ button {
     padding: 25px;
     background-color: goldenrod;
     margin: 25px;
+    border: gold solid 5px;
 }
 
-h1 {
+h1, h2, h3 {
     color:gold
 }
 
 html, body {
-    height: 100%;
+
     font-family: 'Uncial Antiqua', cursive;
 }
 
